@@ -1,0 +1,36 @@
+.box_reservation{
+    background-color: #ddc061;
+    text-align: center;
+    
+    height: 200px;
+    border-radius: 20px;
+    margin: -100px 16% 0px;
+    position: relative;
+
+}
+
+.box-info{
+    margin: 50px 16%;
+    display: flex;
+}
+
+.box-info > img{
+    width: 30%;
+    height: 300px;
+}
+
+.content-info{
+    margin-left: 10%;
+    text-align: center;
+    width: 60%;
+}
+.content-info > h1{
+    background-color: #ddc061;
+    height: 50px;
+}
+
+.content-info > p{
+    background-color: #ddc061;
+    padding: 30px;
+    font-size: 24px;
+}
