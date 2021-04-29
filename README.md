@@ -153,7 +153,7 @@ Con el objetivo de visualizar la relación entre las entidades realizamos el mod
 
 Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor resolución.
 
-![modelo_er](./img/modelo_er.jpg)
+![modelo_er](.src/img/modelo_er.jpg)
 
 
 ### ▪️ Diseño lógico
@@ -162,7 +162,7 @@ Al darle clic en la imagen, podrán ver el modelo entidad relación en una mayor
 Pasamos el modelo entidad relación al modelo relacional.
 
 Al igual que el modelo anterior, al darle clic, se puede visualizar la imagen en una mejot resolución.
-![modelo_relacional](./img/modelo_relacional.jpg)
+![modelo_relacional](.src/img/modelo_relacional.jpg)
 
 ## 📝 Maquetación CRM
 Utilizaremos 3 templates básicos:
@@ -173,8 +173,8 @@ Utilizaremos 3 templates básicos:
 <a name="autores"></a>
 # ✒️ Autores 
 
-[![Ceci Suarez](./img/ceci_suarez.jpg)](https://github.com/CeciSuareZaldivar) [![Cristian Garcia](./img/cristian_garcia.jpg)](https://github.com/Adalk033)  
-[![David Velazquez](./img/david_velazquez.jpg)](https://github.com/dvmoran1) [![Julian Hernandez](/img/julian_hernandez.jpg)](https://github.com/codeinit-code)
+[![Ceci Suarez](.src/img/ceci_suarez.jpg)](https://github.com/CeciSuareZaldivar) [![Cristian Garcia](.src/img/cristian_garcia.jpg)](https://github.com/Adalk033)  
+[![David Velazquez](.src/img/david_velazquez.jpg)](https://github.com/dvmoran1) [![Julian Hernandez](.src/img/julian_hernandez.jpg)](https://github.com/codeinit-code)
 
 
 # 🎁  Agradecimiento Especial
