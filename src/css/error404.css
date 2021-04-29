@@ -1,0 +1,18 @@
+.logoError{
+  justify-content: center;
+}
+
+.container404 {
+  text-align: center;
+}
+  
+.error404{
+  max-width: 90vh;
+  text-align: center;
+}
+  
+.btnHome{
+  float:  right;
+  position: absolute;
+  height: 10vmin;
+}

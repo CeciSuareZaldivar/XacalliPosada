@@ -1,0 +1,50 @@
+.containerLogIn{
+  border: 2px solid   #e9eee9;
+  border-radius: 10px;
+  width: 320px;
+  height: 480px;
+  text-align: center;
+  margin: 15px;
+}
+
+.containerLogIn >*{
+  text-align: center;
+}
+
+.iconPhoto{
+  max-height: 28vmin;
+}
+
+.containerUser,.containerPass{
+  display: flex;
+  justify-content: center;
+}
+
+.iconUser,.iconPass{
+  max-height: 4vmin;
+  border: 1px solid  #e9eee9;
+  width: 40px;
+}
+
+
+.inputLogIn{
+  border-radius: 3px;
+  border: 1px solid  #e9eee9;
+  background-color:#d1d1d1;
+}
+
+#btnSign{
+  background-color: #af67fb;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #af67fb;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.txtForgot{
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
