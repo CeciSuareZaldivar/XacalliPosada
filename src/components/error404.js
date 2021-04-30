@@ -12,11 +12,11 @@ function error404() {
   return (
     <div className="container404">
         <LogoXacalliPosada/>
-        <div class="containerError">
+        <div className="containerError">
           <img src={error} className="error404"/>
-          <div class="containerButton">
+          <button id="btnHome">
             <img src={home} className="btnHome"/>
-          </div>
+          </button>
         </div>
     </div>
   );

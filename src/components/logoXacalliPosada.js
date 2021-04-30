@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from '../img/logo.svg';
+// Import CSS
 import '../css/logoXacalliPosada.css';
+// Import img
+import logo from '../img/logo.svg';
 
 function LogoXacalliPosada() {
     return (

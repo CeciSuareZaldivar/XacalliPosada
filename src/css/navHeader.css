@@ -1,0 +1,33 @@
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #49A2C1;
+    padding: 5px;
+}
+
+.iconMenuLines{
+    width: 25vmin;
+}
+
+
+.containerIconMenuLines{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnMenuTri{
+    background:none;
+    border:0;
+    border-radius: 8px;
+}
+
+#btnMenuTri:hover{
+    cursor:pointer;
+    font-style:italic;
+    box-shadow:3px 2px 10px 1px  #3f8aa5;
+}
+
+#btnMenuTri:active{
+    box-shadow:3px 2px 15px 1px #2f687c;
+}
