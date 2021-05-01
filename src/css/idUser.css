@@ -1,39 +1,21 @@
 .containerUser{
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .containerUser > *{
-    padding: 10px;
+    padding: 6px;
     justify-content: center;
     align-items: center; 
 }
 
 .iconPhoto{
-    width: 9vmin;
+    width: 8vmin;
 }
 
 .txtIdUser{
-    font-size: 20px;
+    font-size: 15px;
     color:white;
     font-weight: bold;
-}
-
-.icMnTri{
-    width: 5vmin;
-}
-
-#btnMenTri{
-    background:none;
-    border:0;
-    border-radius: 8px;
-}
-
-#btnMenTri:hover{
-    cursor:pointer;
-    font-style:italic;
-    box-shadow:3px 2px 10px 1px  #3f8aa5;
-}
-
-#btnMenTri:active{
-    box-shadow:3px 2px 15px 1px #2f687c;
 }

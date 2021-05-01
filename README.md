@@ -1,4 +1,4 @@
-# 🏨  API Xacalli Posada
+# 🏨  Aplicación Web Xacalli Posada
 
 Creación de una aplicación web para el Hotel PetFriendly denominado [“Xacalli Posada”](https://www.facebook.com/XacalliEnTepoztlan), ubicado en Tepoztlán Morelos.
 

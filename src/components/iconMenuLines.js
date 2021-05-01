@@ -2,14 +2,15 @@ import React from 'react';
 // Import CSS
 import '../css/iconMenuLines.css';
 // Import img
-import icMenu from '../img/iconMenuLines.svg';
+import icMenuLine from '../img/iconMenuLines.svg';
 
-function iconMenu() {
+
+function iconMenuLines() {
   return (
-    <div className="containerIconMenu">
-        <img src={icMenu} className="iconMenu"/>
-    </div>
+    <button id="btnMenuLines">
+       <img src={icMenuLine} className="iconMenuLine"/>
+    </button>
   );
 }
 
-export default iconMenu;
+export default iconMenuLines;

@@ -1,0 +1,26 @@
+.containerCrm{
+    display: flex;
+}
+
+.navHeader{
+    width: 10vmin;
+}
+
+
+.containerLeft{
+    background-color:none;
+    width: 18%;
+}
+
+.containerRight{
+    background-color: #DFE1E3;
+    width: 82%;
+}
+
+.containerDashboard{
+    background-color: #f0f4f8;
+    width: 158vmin;
+    height: 77vmin;
+    margin-top: 8vmin;
+    margin-left: 5vmin;
+}

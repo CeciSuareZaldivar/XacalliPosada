@@ -10,9 +10,7 @@ function navHeader() {
   return (
     <div className="containerNav">
       <div className="containerIconMenuLines">
-        <button id="btnMenuTri">
           <IconMenuLines className="iconMenuLines"/>
-        </button>
       </div>
       <div className="containerIDUser">
         <IdUser/>
