@@ -24,6 +24,9 @@ function AppCrm() {
           <div class="MenuDashboard">
             <NavMenuCrm/>
           </div>
+          <div class="tittleDasboard">
+            <p>Título Prueba</p> 
+          </div>
           <div class="containerDashboard">
               <Table/>
           </div>

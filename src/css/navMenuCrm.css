@@ -1,5 +1,6 @@
 .containerNavMenuCrm{
     background-color: #DDDDDD;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: auto;

@@ -7,7 +7,7 @@ import '../css/btnMenuNavLat.css';
 import IconBtnMenuLat from './iconBtnMenuLat';
 
 
-class ButttonNavLat extends React.Component {
+class LabelLogIn extends React.Component {
   render () {
     return (
       <div className="containerMenuLat">
@@ -24,4 +24,4 @@ class ButttonNavLat extends React.Component {
   }
 }
 
-export default ButttonNavLat;
+export default LabelLogIn;
