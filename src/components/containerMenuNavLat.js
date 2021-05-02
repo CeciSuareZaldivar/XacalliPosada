@@ -5,16 +5,15 @@ import '../css/containerMenuNavLat.css';
 import ButttonNavLat from './btnMenuNavLat';
 
 
-function ContainerMenuNavLateral() {
+function ContainerMenuNavLateral(props) {
   return (
     <div class="navLateral">
-        <div class="containerMenuLat">
-        <ButttonNavLat tittle="Reservaciones"/>
-        <ButttonNavLat tittle="Prospectos"/>
-        <ButttonNavLat tittle="Clientes"/>
-        <ButttonNavLat tittle="Usuarios"/>
-        </div>
-
+      <ul class="containerMenuLat">
+        <ButttonNavLat tittle="Reservaciones" opcion="1" />
+        <ButttonNavLat tittle="Prospectos" opcion="2" />
+        <ButttonNavLat tittle="Clientes" opcion="3" />
+        <ButttonNavLat tittle="Usuarios" opcion="4" />
+      </ul>
     </div>
   );
 }

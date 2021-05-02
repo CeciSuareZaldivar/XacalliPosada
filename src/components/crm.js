@@ -10,11 +10,18 @@ import Table from './table';
 import NavMenuCrm from './navMenuCrm';
 
 
-function AppCrm() {
-  return (
-    <div class="containerCrm">
+class AppCrm extends React.Component {
+  state={opcion: {} };
+
+  handleClick = e => {
+    alert(e);
+  };
+
+  render (){
+    return(
+      <div class="containerCrm">
       <div class="containerLeft">
-        <NavLateral className="navLat"/>
+        <NavLateral className="navLat" bandera={this.handleClick}/>
       </div>
       <div class="containerRight">
         <div className="containerNavHea">
@@ -33,7 +40,8 @@ function AppCrm() {
         </div>
       </div>
     </div>
-  );
+    )
+  }
 }
 
 export default AppCrm;

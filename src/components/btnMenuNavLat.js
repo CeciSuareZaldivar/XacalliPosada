@@ -8,10 +8,15 @@ import IconBtnMenuLat from './iconBtnMenuLat';
 
 
 class LabelLogIn extends React.Component {
+
+  // handleClick = e => {
+  //   alert(this.props.opcion);
+  // };
+
   render () {
     return (
-      <div className="containerMenuLat">
-        <button id="btnNavLat">
+      <li className="containerMenuLat">
+        <button id="btnNavLat" >
           <div class="containerIcon">  
             <IconBtnMenuLat/>
           </div>
@@ -19,7 +24,7 @@ class LabelLogIn extends React.Component {
             {this.props.tittle}
             </div>
         </button>
-    </div>
+      </li>
     )
   }
 }
