@@ -1,0 +1,38 @@
+#btnNavLat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#58BADD;
+    color:white;
+    border:0;
+    border-radius: 8px;
+    height: 45px;
+    width: 274px;
+    font-size: medium;
+}
+
+#btnNavLat > *{
+    padding: 8px;
+}
+
+#btnNavLat:hover{
+    cursor:pointer;
+    font-weight: bold;
+    box-shadow:3px 2px 10px 1px  #3f8aa5;
+}
+
+#btnNavLat:active{
+    background-color: #49A2C1;
+    box-shadow:3px 2px 15px 1px #2f687c;
+}
+
+.containerIcon{
+    padding-right: 18px;
+    width: 3vmin;
+}
+
+.containerText{
+    background-color: none;
+    text-align: left;
+    width: 120px;
+}

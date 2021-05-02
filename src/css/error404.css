@@ -12,9 +12,9 @@
   
 #btnHome{
   display: inline-block;
-  position:absolute;
-        left:600px;
-        top: 580px;
+  position: absolute;
+        left: 85vh;
+        top: 725px;
   width: 35vh;
   background:#838BC5;
   border: 1px solid white;

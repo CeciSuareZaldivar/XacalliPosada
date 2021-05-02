@@ -5,16 +5,16 @@ import '../css/navLateral.css';
 
 // Import components
 import LogoXacalliPosada from './logoXacalliPosada';
+import ContainerMenuNavLateral from './containerMenuNavLat';
 
 
 function ContainerNavLateral() {
   return (
     <div class="navLateral">
         <LogoXacalliPosada/>
-        <div class="menu">
-
+        <div class="containerMenu">
+          <ContainerMenuNavLateral/>
         </div>
-
     </div>
   );
 }

@@ -1,5 +1,9 @@
 .navLateral{
     background-color: #58BADD;
-    width: 40vmin;
-    height: 100vmin;
+    width: 37vmin;
+    height: 520px;
+}
+
+.containerMenu{
+    padding-top: 10px;
 }

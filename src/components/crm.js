@@ -7,6 +7,7 @@ import '../css/crm.css';
 import NavLateral from './navLateral';
 import NavHeader from './navHeader';
 import Table from './table';
+import NavMenuCrm from './navMenuCrm';
 
 
 function AppCrm() {
@@ -19,13 +20,12 @@ function AppCrm() {
         <div className="containerNavHea">
           <NavHeader className="navHeader"/>
         </div>
-
-        <div class="containerDashboard">
+        <div class="dashboard">
           <div class="MenuDashboard">
-            
+            <NavMenuCrm/>
           </div>
-          <div class="dashboard">
-            <Table/>
+          <div class="containerDashboard">
+              <Table/>
           </div>
         </div>
       </div>

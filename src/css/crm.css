@@ -6,21 +6,39 @@
     width: 10vmin;
 }
 
-
 .containerLeft{
     background-color:none;
     width: 18%;
 }
 
 .containerRight{
-    background-color: #DFE1E3;
+    background-color: #EDEDED;
+    align-items: center;
+    justify-content: center;
     width: 82%;
+    padding-top: 8px;
+    padding-bottom:  8px;
+}
+
+.dashboard{
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+}
+
+.dashboard > *{
+    justify-content: center;
+    align-items: center;
 }
 
 .containerDashboard{
-    background-color: #f0f4f8;
-    width: 158vmin;
-    height: 77vmin;
-    margin-top: 8vmin;
-    margin-left: 5vmin;
+    display:flex;
+    padding-top: 35px;
+    padding-bottom:  35px;
+    width: auto;
+    height: auto;
+}
+
+.containerDashboard > *{
+    padding:15px;
 }

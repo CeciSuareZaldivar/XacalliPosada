@@ -1,0 +1,9 @@
+.containerMenuCrm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerMenuCrm > *{
+    padding: 7px;
+}
