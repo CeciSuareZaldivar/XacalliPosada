@@ -9,13 +9,7 @@ import ContainerMenuNavLateral from './containerMenuNavLat';
 
 
 function ContainerNavLateral (props) {
-   
-  // handleClick = e => {
-  //    //alert("hola mama");
-  //    console.log("hola");
-  // };
-
-
+  
   return (
     <div class="navLateral" className={props.className}>
         <LogoXacalliPosada/>

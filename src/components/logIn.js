@@ -57,7 +57,7 @@ function LogIn() {
             <br></br>
             <div className="containerPass">
               <img src={icPass} className="iconPass"/>
-              <input type="text" className="inputLogIn" placeholder="Password" value={password} onChange={handleChange1}/>
+              <input type="password" className="inputLogIn" placeholder="Password" value={password} onChange={handleChange1}/>
             </div>
             <br></br>
             <button id="btnSign">Sign In</button>

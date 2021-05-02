@@ -9,10 +9,10 @@ function ContainerMenuNavLateral(props) {
   return (
     <div class="navLateral">
       <ul class="containerMenuLat">
-        <ButttonNavLat tittle="Reservaciones" opcion="1" />
-        <ButttonNavLat tittle="Prospectos" opcion="2" />
-        <ButttonNavLat tittle="Clientes" opcion="3" />
-        <ButttonNavLat tittle="Usuarios" opcion="4" />
+        <ButttonNavLat path="/crm/reservations" tittle="Reservaciones"/>
+        <ButttonNavLat path="/crm/prospects" tittle="Prospectos"/>
+        <ButttonNavLat path="/crm/clients" tittle="Clientes"/>
+        <ButttonNavLat path="/crm/users" tittle="Usuarios"/>
       </ul>
     </div>
   );

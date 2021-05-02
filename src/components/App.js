@@ -6,6 +6,12 @@ import Error404 from './error404';
 // import LogIn from './logIn';
 import Crm from './crm';
 import Login from './logIn';
+
+import viewReservations from './viewReservations';
+import viewProspects from './viewProspects';
+import viewClients from './viewClients';
+import viewUsers from './viewUsers';
+
 import PropTypes from 'prop-types';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 
@@ -18,7 +24,11 @@ function App(Props) {
         <Switch>
           <Redirect exact from="/" to="/login" />
           <Route path="/login" component={Login}/>
-          <Route path="/Crm" component={Crm}/>
+          <Route exact path="/crm" component={Crm}/>
+          <Route path="/crm/reservations" component={viewReservations}/>
+          <Route path="/crm/prospects" component={viewProspects}/>
+          <Route path="/crm/clients" component={viewClients}/>
+          <Route path="/crm/users" component={viewUsers}/>
           <Route component={Error404}/>
         </Switch>
       </BrowserRouter>

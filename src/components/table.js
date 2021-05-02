@@ -16,8 +16,6 @@ import Paper from '@material-ui/core/Paper';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
-import { cols, rows } from './tableDesserts.data';
-
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -36,17 +34,17 @@ function Row(props) {
   return (
     <React.Fragment>
       <TableRow className={classes.root}>
+        {console.log(rowKeys)}
+        {rowKeys.map((key) => (
+          key !== "history" &&
+          <TableCell align="left">{row[key]}</TableCell>
+        ))}
+
         <TableCell>
           <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
             {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
           </IconButton>
         </TableCell>
-
-        {console.log(rowKeys)}
-        {rowKeys.map((key) => (
-          key !== "history" &&
-          <TableCell>{row[key]}</TableCell>
-        ))}
       </TableRow>
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
@@ -114,7 +112,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function CollapsibleTable() {
+export default function CollapsibleTable(props) {
   const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
@@ -133,13 +131,13 @@ export default function CollapsibleTable() {
         <Table aria-label="collapsible table">
           <TableHead>
           <TableRow>
-            {cols.map((col) => (
-              <TableCell>{col.title}</TableCell>
+            {props.cols.map((col) => (
+              <TableCell align="left">{col.title}</TableCell>
             ))}
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {props.rows.map((row) => (
             <Row key={row.name} row={row} />
           ))}
         </TableBody>
@@ -148,7 +146,7 @@ export default function CollapsibleTable() {
       <TablePagination
         rowsPerPageOptions={[10, 25, 100]}
         component="div"
-        count={rows.length}
+        count={props.rows.length}
         rowsPerPage={rowsPerPage}
         page={page}
         onChangePage={handleChangePage}

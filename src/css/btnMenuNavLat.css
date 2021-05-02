@@ -1,4 +1,4 @@
-#btnNavLat{
+.btnNavLat{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,17 +11,17 @@
     font-size: medium;
 }
 
-#btnNavLat > *{
+.btnNavLat > *{
     padding: 8px;
 }
 
-#btnNavLat:hover{
+.btnNavLat:hover{
     cursor:pointer;
     font-weight: bold;
     box-shadow:3px 2px 10px 1px  #3f8aa5;
 }
 
-#btnNavLat:active{
+.btnNavLat-active{
     background-color: #49A2C1;
     box-shadow:3px 2px 15px 1px #2f687c;
 }

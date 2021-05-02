@@ -5,7 +5,7 @@ import '../css/btnMenuNavLat.css';
 
 // Import components
 import IconBtnMenuLat from './iconBtnMenuLat';
-
+import { NavLink } from 'react-router-dom';
 
 class LabelLogIn extends React.Component {
 
@@ -16,14 +16,14 @@ class LabelLogIn extends React.Component {
   render () {
     return (
       <li className="containerMenuLat">
-        <button id="btnNavLat" >
+        <NavLink className="btnNavLat" to={this.props.path} activeClassName="btnNavLat-active">
           <div class="containerIcon">  
             <IconBtnMenuLat/>
           </div>
             <div className="containerText">
             {this.props.tittle}
             </div>
-        </button>
+        </NavLink>
       </li>
     )
   }

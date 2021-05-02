@@ -9,19 +9,13 @@ import NavHeader from './navHeader';
 import Table from './table';
 import NavMenuCrm from './navMenuCrm';
 
-
 class AppCrm extends React.Component {
-  state={opcion: {} };
-
-  handleClick = e => {
-    alert(e);
-  };
 
   render (){
     return(
       <div class="containerCrm">
       <div class="containerLeft">
-        <NavLateral className="navLat" bandera={this.handleClick}/>
+        <NavLateral className="navLat"/>
       </div>
       <div class="containerRight">
         <div className="containerNavHea">
@@ -32,10 +26,10 @@ class AppCrm extends React.Component {
             <NavMenuCrm/>
           </div>
           <div class="tittleDasboard">
-            <p>Título Prueba</p> 
+            <p>{this.props.titulo}</p> 
           </div>
           <div class="containerDashboard">
-              <Table/>
+            {this.props.children}
           </div>
         </div>
       </div>
