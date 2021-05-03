@@ -12,6 +12,8 @@ import viewProspects from './viewProspects';
 import viewClients from './viewClients';
 import viewUsers from './viewUsers';
 
+import editProspect from './editProspect';
+
 import PropTypes from 'prop-types';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 
@@ -26,9 +28,10 @@ function App(Props) {
           <Route path="/login" component={Login}/>
           <Route exact path="/crm" component={Crm}/>
           <Route path="/crm/reservations" component={viewReservations}/>
-          <Route path="/crm/prospects" component={viewProspects}/>
+          <Route exact path="/crm/prospects" component={viewProspects}/>
           <Route path="/crm/clients" component={viewClients}/>
           <Route path="/crm/users" component={viewUsers}/>
+          <Route path="/crm/prospects/edit" component={editProspect}/>
           <Route component={Error404}/>
         </Switch>
       </BrowserRouter>

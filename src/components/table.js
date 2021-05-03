@@ -43,6 +43,8 @@ function Row(props) {
     roomsCol = Object.keys(row.rooms[0]);
   }
 
+  console.log(props.editRoute);
+
   return (
     <React.Fragment>
       <TableRow className={classes.root}>
@@ -62,7 +64,7 @@ function Row(props) {
                 </IconButton>
             ))}
               
-              <ButtonEdit/> 
+              <ButtonEdit editRoute={props.editRoute}/> 
               <ButtonDelete/>
             </div>
           </TableCell>
@@ -131,6 +133,7 @@ export default function CollapsibleTable(props) {
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(+event.target.value);
     setPage(0);
+
   };
   return (
     <Paper className={classes.root}>
@@ -145,7 +148,7 @@ export default function CollapsibleTable(props) {
         </TableHead>
         <TableBody>
           {props.rows.map((row) => (
-            <Row key={row.id} row={row} />
+            <Row key={row.id} row={row} editRoute={props.editRoute}/>
           ))}
         </TableBody>
         </Table>

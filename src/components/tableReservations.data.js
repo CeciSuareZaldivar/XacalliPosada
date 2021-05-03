@@ -28,7 +28,7 @@ export const rows = [
     payAdvance: 650,
     idEmployee: "e01",
     rooms: [
-      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"},
+      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"}
     ]
   },
   

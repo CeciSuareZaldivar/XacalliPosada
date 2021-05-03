@@ -21,7 +21,7 @@ class AppCrm extends React.Component {
         <div className="containerNavHea">
           <NavHeader className="navHeader"/>
         </div>
-        <TemplateEditProspect/>
+        {/* <TemplateEditProspect/> */}
         <div className="dashboard">
           <div className="tittleDasboard">
             <p>{this.props.titulo}</p> 

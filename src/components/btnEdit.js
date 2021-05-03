@@ -1,17 +1,18 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 // Import CSS
 import '../css/groupIconsView.css';
 // Import img
 import icPencil from '../img/iconPencil.svg';
 
 
-function ButtonEdit() {
+function ButtonEdit(props) {
   return (
-    <div className="containerBtnEdit">
+    <NavLink to={props.editRoute} className="containerBtnEdit">
         <button id="btnPencil">
           <img src={icPencil} className="iconPencil"/>
         </button>
-    </div>
+    </NavLink>
   );
 }
 

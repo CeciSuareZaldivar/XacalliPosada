@@ -7,7 +7,7 @@ import { cols, rows } from './tableUsers.data';
 function viewUsers() {
     return (
         <Crm titulo="Usuarios">
-            <Table cols={cols} rows={rows}></Table>
+            <Table cols={cols} rows={rows} editRoute="/crm/prospects/edit"></Table>
         </Crm>
     )
 }
