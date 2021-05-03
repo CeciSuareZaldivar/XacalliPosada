@@ -1,47 +1,35 @@
 export const cols = [
-    {title: 'nombre'},
-    {title: 'email'}
+    {title: 'No.'},
+    {title: 'ID Cliente'},
+    {title: 'Nombre'},
+    {title: 'Teléfono'},
+    {title: 'No. Personas'},
+    {title: 'No. Mascotas'},
+    {title: 'Fecha Reservación'},
+    {title: 'Fecha Inicio'},
+    {title: 'Fecha Fin'},
+    {title: 'Fecha Pago Anticipo'},
+    {title: 'Pago Anticipo'},
+    {title: 'ID Vendedor'},
 ]
 
 export const rows = [
   {
-    name: "Perengano Lopez",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
+    id: 1,
+    idClient: "c01",
+    name: "Geroniomo Uc",
+    phone: "55 8367 0580",
+    numberPerson: 5,
+    numberPets: 0,
+    dateRegistration: "5/Agosto/2021",
+    dateStart: "10/Agosto/2021",
+    dateEnd: "12/Agosto/2021",
+    datePayAdvance: "7/Agosto/2021",
+    payAdvance: 650,
+    idEmployee: "e01",
+    rooms: [
+      { "No. Cabañas": 2,"ID Cabaña": 'h503', "Precio": 1600, "Notas":"Dos adultos y un menor de 9 años"},
     ]
   },
-  {
-    name: "Perengano2 Lopez",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "Perengano3 Lopez",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "Perengano4 Lopez",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "Perengano5 Lopez",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
+  
 ]

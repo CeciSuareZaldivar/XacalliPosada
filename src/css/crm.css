@@ -23,9 +23,9 @@
 .dashboard{
     justify-content: center;
     align-items: center;
-    width: 1280px;
+    width: 1410px;
     height: 780px;
-    margin-left: 10%;
+    margin-left: 5.5%;
     margin-top: 2%;
 }
 
@@ -43,4 +43,9 @@
     text-align: center;
     font-weight: bold;
     font-size: 25px;
+}
+
+.menuCrm{
+    display: flex;;
+    justify-content: flex-end;
 }

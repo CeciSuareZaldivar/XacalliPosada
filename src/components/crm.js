@@ -4,6 +4,7 @@ import '../css/crm.css';
 // Import components
 import NavLateral from './navLateral';
 import NavHeader from './navHeader';
+import ButtonMenuCrm from './btnMenuCrm';
 
 class AppCrm extends React.Component {
 
@@ -20,6 +21,9 @@ class AppCrm extends React.Component {
         <div className="dashboard">
           <div className="tittleDasboard">
             <p>{this.props.titulo}</p> 
+          </div>
+          <div class="menuCrm">
+            <ButtonMenuCrm id="btnMenuCrm" path="" tittle="Añadir"/>
           </div>
           <div className="containerDashboard">
             {this.props.children} 

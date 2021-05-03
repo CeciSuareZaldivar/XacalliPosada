@@ -12,9 +12,9 @@
 #btnMenuTri:hover{
     cursor:pointer;
     font-style:italic;
-    box-shadow:3px 2px 10px 1px  #3f8aa5;
+    box-shadow:3px 2px 10px 1px #6582c4;
 }
 
 #btnMenuTri:active{
-    box-shadow:3px 2px 15px 1px #2f687c;
+    box-shadow:3px 2px 15px 1px #5a75b4;
 }
