@@ -1,47 +1,30 @@
 export const cols = [
-    {title: 'nombre'},
-    {title: 'email'}
+  {title: 'No.'},
+  {title: 'Nombre'},
+  {title: 'Teléfono'},
+  {title: 'No. Personas'},
+  {title: 'No. Mascotas'},
+  {title: 'Fecha Registro'},
+  {title: 'Fecha Inicio'},
+  {title: 'Fecha Fin'},
+  {title: 'Anticipo'},
+  {title: 'Estado'},
+  {title: 'ID Vendedor'}
 ]
 
+
 export const rows = [
-  {
-    name: "juan castro",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "juan2 castro",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "juan3 castro",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "juan4 castro",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "juan5 castro",
-    email: "email@example.com",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
+{
+  id: 1,
+  name: "Geroniomo Uc",
+  phone: "55 8367 0580",
+  numberPerson: 5,
+  numberPets: 0,
+  dateRegistration: "5/Agosto/2021",
+  dateStart: "10/Agosto/2021",
+  dateEnd: "12/Agosto/2021",
+  advance: 650,
+  state: "Checando",
+  idEmployee: "e01",
+},
 ]

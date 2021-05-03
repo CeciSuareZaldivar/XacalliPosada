@@ -51,12 +51,12 @@ function LogIn() {
             <IconPhotoUser className="iconPhoto"/>
             <br></br><br></br>
             <div className="containerUser">
-              <img src={icUser} className="iconUser"/>
+              <img src={icUser} className="iconUser" alt="User Icon"/>
               <input type="text" className="inputLogIn" placeholder="User" value={username} onChange={handleChange}/>
             </div>
             <br></br>
             <div className="containerPass">
-              <img src={icPass} className="iconPass"/>
+              <img src={icPass} className="iconPass" alt="Password Icon"/>
               <input type="password" className="inputLogIn" placeholder="Password" value={password} onChange={handleChange1}/>
             </div>
             <br></br>

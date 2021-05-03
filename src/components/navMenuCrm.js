@@ -7,8 +7,8 @@ import ContainerMenuCrm from './containerMenuCrm';
 
 function NavMenuCrm() {
   return (
-    <div class="menuCrm">
-        <div class="containerNavMenuCrm">
+    <div className="menuCrm">
+        <div className="containerNavMenuCrm">
           <ContainerMenuCrm/>
         </div>
     </div>

@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Crm from './crm';
-import Table from './table'
+import TableCollapse from './tableCollapse'
 import { cols, rows } from './tableReservations.data';
 
 function viewReservations() {
   return (
     <Crm titulo="Reservaciones">
-      <Table cols={cols} rows={rows}></Table>
+      <TableCollapse cols={cols} rows={rows}></TableCollapse>
     </Crm>
   )
 }

@@ -3,7 +3,7 @@
 }
 
 .iconDelete, .iconEye, .iconPencil{
-    height: 3vmin;
+    height: 2vmin;
     padding: 5px;
 }
 
@@ -16,9 +16,9 @@
 #btnEye:hover, #btnPencil:hover, #btnDelete:hover{
     cursor:pointer;
     font-style:italic;
-    box-shadow:3px 2px 10px 1px  #af67fb;
+    box-shadow:3px 2px 8px 1px  #757575;
 }
 
 #btnEye:active, #btnPencil:active, #btnDelete:active{
-    box-shadow:3px 2px 15px 1px #af67fb;
+    box-shadow:3px 2px 10px 1px #757575;
 }

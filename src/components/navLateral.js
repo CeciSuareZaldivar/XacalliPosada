@@ -11,9 +11,9 @@ import ContainerMenuNavLateral from './containerMenuNavLat';
 function ContainerNavLateral (props) {
   
   return (
-    <div class="navLateral" className={props.className}>
+    <div className="navLateral" className={props.className}>
         <LogoXacalliPosada/>
-        <div class="containerMenu">
+        <div className="containerMenu">
           <ContainerMenuNavLateral />
         </div>
     </div>

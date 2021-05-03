@@ -8,7 +8,7 @@ import icReservaciones from '../img/iconReservaciones.svg';
 
 function IcnButttonNavLat() {
   return (
-    <div class="containericBtnNavLat">
+    <div className="containericBtnNavLat">
         <img src={icReservaciones} className="iconReservaciones"/>
     </div>
   );

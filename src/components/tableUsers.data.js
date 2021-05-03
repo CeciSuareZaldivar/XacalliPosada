@@ -1,53 +1,22 @@
 export const cols = [
-    {title: 'nombre'},
-    {title: 'email'},
-    {title: 'tacos'}
+  {title: 'No.'},
+  {title: 'ID Vendedor'}
+  {title: 'Nombre'},
+  {title: 'Teléfono'},
+  {title: 'E-mail'},
+  {title: 'Rol Usuario'},
+  {title: 'Sueldo'},
 ]
 
+
 export const rows = [
-  {
-    name: "venancio de jesus",
-    email: "email@example.com",
-    tacos: "pastor", 
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "venancio2 de jesus",
-    email: "email@example.com",
-    tacos: "pastor",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "venancio3 de jesus",
-    email: "email@example.com",
-    tacos: "pastor",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "venancio4 de jesus",
-    email: "email@example.com",
-    tacos: "pastor",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
-  {
-    name: "venancio5 de jesus",
-    email: "email@example.com",
-    tacos: "pastor",
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ]
-  },
+{
+  id: 1,
+  idEmployee: "e01",
+  name: "Geroniomo Uc",
+  phone: "55 8367 0580",
+  email: "hola@gmail.com",
+  userRole: "vendedor",
+  salary: 500,
+},
 ]
