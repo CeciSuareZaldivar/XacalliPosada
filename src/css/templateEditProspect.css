@@ -1,0 +1,13 @@
+.containerTemplateEditProspect{
+    display:flex;
+    width: 1000px;
+    height: 700px;
+    background-color: beige;
+    padding:5px;
+    margin: 50px;
+}
+
+
+.containerTemplateEditProspect > *{
+    padding: 6px;
+}

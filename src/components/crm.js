@@ -6,6 +6,9 @@ import NavLateral from './navLateral';
 import NavHeader from './navHeader';
 import ButtonMenuCrm from './btnMenuCrm';
 
+import TemplateEditProspect from './templateEditProspect';
+
+
 class AppCrm extends React.Component {
 
   render (){
@@ -18,6 +21,7 @@ class AppCrm extends React.Component {
         <div className="containerNavHea">
           <NavHeader className="navHeader"/>
         </div>
+        <TemplateEditProspect/>
         <div className="dashboard">
           <div className="tittleDasboard">
             <p>{this.props.titulo}</p> 
