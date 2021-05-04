@@ -1,7 +1,20 @@
 .containerMenuLat{
-    display:block;
+    display:flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    list-style:none;
+}
+
+.containerMenuLat > *{
+    padding:7px;
+}
+
+.navLateral{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    min-width: 200px;;
+    max-height: 100px;
+    min-height: 100px;
 }

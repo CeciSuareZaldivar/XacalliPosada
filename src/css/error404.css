@@ -1,3 +1,8 @@
+.container404{
+  max-width: 1500px;
+  min-width: 600px
+}
+
 .logoError{
   justify-content: center;
 }
@@ -12,10 +17,11 @@
   
 #btnHome{
   display: inline-block;
-  position: absolute;
-        left: 85vh;
-        top: 725px;
-  width: 35vh;
+  position: relative;
+        left: -5vh;
+        top: -150px;
+  max-width: 55vh;
+  min-width: 25vh;
   background:#838BC5;
   border: 1px solid white;
   border-radius: 40px;

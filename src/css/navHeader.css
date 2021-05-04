@@ -1,18 +1,14 @@
 .containerNav{
+    background-color: #6e8ad6;
     display: flex;
-    justify-content: space-between;
-    background-color: #7896EA;
+    align-items: center;
     height: 8vmin;
-    padding: 5px;
     padding: 8px;
+    
 }
+
 
 .iconMenuLines{
     width: 20vmin;
 }
 
-.containerIconMenuLines, .containerIDUser{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}

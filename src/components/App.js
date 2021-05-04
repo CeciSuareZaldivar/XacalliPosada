@@ -11,6 +11,7 @@ import viewReservations from './viewReservations';
 import viewProspects from './viewProspects';
 import viewClients from './viewClients';
 import viewUsers from './viewUsers';
+import viewWelcome from './viewWelcome';
 
 import editProspect from './editProspect';
 
@@ -26,7 +27,7 @@ function App(Props) {
         <Switch>
           <Redirect exact from="/" to="/login" />
           <Route path="/login" component={Login}/>
-          <Route exact path="/crm" component={Crm}/>
+          <Route exact path="/crm" component={viewWelcome}/>
           <Route path="/crm/reservations" component={viewReservations}/>
           <Route exact path="/crm/prospects" component={viewProspects}/>
           <Route path="/crm/clients" component={viewClients}/>

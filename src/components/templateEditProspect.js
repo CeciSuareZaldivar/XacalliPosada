@@ -2,65 +2,121 @@ import React from 'react';
 // Import CSS
 import '../css/templateEditProspect.css';
 // Import img
-
+import { Button } from 'react-bootstrap';
+import { Form, FormControl,FormGroup, FormLabel } from 'react-bootstrap';
 
 function templateEditProspect() {
   return (
     <div className="containerTemplateEditProspect">
-        <div>
-            <div className="number">
-                <p>No.</p>
-                <input type="text" className="editProspectNumber"/>
-            </div>
-            <div className="name">
-                <p>Nombre</p>
-                <input type="text" className="editProspectName"/>
-            </div>
-            <div className="phone">
-                <p>Teléfono</p>
-                <input type="text" className="editProspectPhone"/>
-            </div>
-            <div className="numberPerson">
-                <p>No. Personas</p>
-                <input type="text" className="editProspectNumberPerson"/>
-            </div>
-        </div>
-        <div>
-            <div className="numberPets">
-                <p>No. Mascotas</p>
-                <input type="text" className="editProspectNumberPets"/>
-            </div>
-            <div className="dateRegistration">
-                <p>Fecha de Registro</p>
-                <input type="text" className="editProspectDateRegistration"/>
-            </div>
-            <div className="dateStart">
-                <p>Fecha Inicio Reservación</p>
-                <input type="text" className="editProspectDateStart"/>
-            </div>
-            <div className="dateEnd">
-                <p>Fecha Termino Reservación</p>
-                <input type="text" className="editProspectDateEnd"/>
-            </div>
-        </div>
-        <div>
-            <div className="advance">
-                <p>Anticipo</p>
-                <input type="text" className="editProspectAdvance"/>
-            </div>
-            <div className="state">
-                <p>Estado</p>
-                <input type="text" className="editProspectState"/>
-            </div>
-            <div className="idEmployee">
-                <p>ID Vendedor</p>
-                <input type="text" className="editProspectIdEmployee"/>
-            </div>
-        </div>
+        <Form>
+            <Form.Row className="containerRow">
+                <FormGroup controlId="numberId" className="containerInputs">
+                    <FormLabel>No.</FormLabel>
+                    <FormControl type="text" className="inputSmall" />
+                </FormGroup>
+
+                <FormGroup controlId="name" className="containerInputs">
+                    <FormLabel>Nombre</FormLabel>
+                    <FormControl type="text" />
+                </FormGroup>
+
+                <FormGroup controlId="phone" className="containerInputs">
+                    <FormLabel>Teléfono</FormLabel>
+                    <FormControl />
+                </FormGroup>
+
+                <FormGroup controlId="numberPerson" className="containerInputs">
+                    <FormLabel className="txtInputs">No. Personas</FormLabel>
+                    <FormControl as="select" defaultValue="Choose..." className="inputSmall">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                    </FormControl>
+                </FormGroup>
+
+                <FormGroup controlId="numberPets" className="containerInputs">
+                    <FormLabel>No. Mascotas</FormLabel>
+                    <FormControl as="select" defaultValue="Choose..." className="inputSmall">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </FormControl>
+                </FormGroup>
+
+            </Form.Row>
+
+            <Form.Row className="containerRow">
+
+                <FormGroup controlId="dateRegistration" className="containerInputs">
+                    <FormLabel>Fecha de Registro Reservación</FormLabel>
+                    <FormControl type="date" />
+                </FormGroup>
+
+                <FormGroup controlId="dateStart" className="containerInputs">
+                    <FormLabel>Fecha Inicio Reservación</FormLabel>
+                    <FormControl type="date"/>
+                </FormGroup>
+
+                <FormGroup controlId="dateEnd" className="containerInputs">
+                    <FormLabel>Fecha Termino Reservación</FormLabel>
+                    <FormControl type="date"/>
+                </FormGroup>
+            </Form.Row>
+
+            <Form.Row className="containerRow">
+                <FormGroup controlId="advance" className="containerInputs">
+                <FormLabel>Anticipo</FormLabel>
+                <FormControl />
+                </FormGroup>
+
+                <FormGroup controlId="state" className="containerInputs">
+                <FormLabel>Estado</FormLabel>
+                    <FormControl as="select" defaultValue="Choose...">
+                        <option>Se le dio información</option>
+                        <option>No se ha podido contactar</option>
+                        <option>Checando Disponibilidad</option>
+                        <option>Sin Disponibilidad</option>
+                        <option>No le interesa</option>
+                        <option>Lo pensará</option>
+                    </FormControl>
+                </FormGroup>
+
+                <FormGroup controlId="idEmployee" className="containerInputs">
+                <FormLabel>ID Vendedor</FormLabel>
+                    <FormControl as="select" defaultValue="Choose...">
+                        <option>e01</option>
+                        <option>e02</option>
+                        <option>e03</option>
+                        <option>e04</option>
+                    </FormControl>
+                </FormGroup>
+            </Form.Row>
+
             <div className="containerButtons">
-                <button>Aceptar</button>
-                <button>Cancelar</button>
+                <Button id="btnDone" type="submit">
+                    Aceptar
+                </Button>
+
+                <Button id="btnCancel" type="submit">
+                    Cancelar
+                </Button>
             </div>
+        </Form>
     </div>
   );
 }

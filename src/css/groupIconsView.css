@@ -3,11 +3,14 @@
 }
 
 .iconDelete, .iconEye, .iconPencil{
-    height: 2vmin;
+    min-height: 28px;
     padding: 5px;
 }
 
 #btnEye, #btnPencil, #btnDelete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background:none;
     border:0;
     border-radius: 8px;

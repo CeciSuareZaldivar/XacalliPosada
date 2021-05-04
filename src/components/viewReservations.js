@@ -2,6 +2,7 @@ import React from 'react'
 
 import Crm from './crm';
 import Table from './table'
+
 import { cols, rows } from './tableReservations.data';
 
 function viewReservations() {

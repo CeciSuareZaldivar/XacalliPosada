@@ -1,8 +1,19 @@
-.navLateral{
-    width: 347px;
-    height: 635px;
+.containerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.containerMenu{
-    padding-top: 10px;
+.navLateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    min-width: 80px;
+    min-height: 90px;
+}
+
+.navLateral > *{
+    justify-content: center;
+    align-items: center;
 }

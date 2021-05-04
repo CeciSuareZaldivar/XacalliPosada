@@ -1,13 +1,67 @@
 .containerTemplateEditProspect{
     display:flex;
-    width: 1000px;
-    height: 700px;
-    background-color: beige;
-    padding:5px;
-    margin: 50px;
+    background-color: #f1ecec;
+    padding: 30px;
+    margin: 8px;
+}
+
+.inputSmall{
+    max-width: 65px;
+}
+
+.containerRow{
+    display:flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    min-width: 200px;
+}
+
+.containerRow > *{
+    padding-right:25px;
+}
+
+.containerInputs > *{
+    justify-content: center;
+    align-items: center;
 }
 
 
-.containerTemplateEditProspect > *{
-    padding: 6px;
+.containerInputs{
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerButtons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.containerButtons > *{
+    margin-left:15px;
+}
+
+
+#btnDone, #btnCancel{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    background-color:#DDDDDD;;
+    color: black;
+    border-radius: 8px;
+    border: 0px;
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+}
+
+#btnDone:hover, #btnCancel:hover{
+    background-color:#CCCCCC;
+    box-shadow:3px 2px -10px 1px #D8D8D8;
+}
+
+#btnDone:active, #btnCancel:active{
+    box-shadow:3px 2px 10px 1px #CCCCCC;
 }

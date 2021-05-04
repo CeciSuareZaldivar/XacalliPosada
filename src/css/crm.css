@@ -2,37 +2,30 @@
     display: flex;
 }
 
-.navHeader{
-    width: 10vmin;
-}
-
 .containerLeft{
-    background-color:none;
-    width: 18%;
+    background-color: #6e8ad6;
+    display:block;
+    justify-content: center;
+    align-items: center;
 }
 
 .containerRight{
     background-color: #EDEDED;
     align-items: center;
     justify-content: center;
-    width: 1600px;
-    height: 936px;
+    padding: 16px;
 }
 
 
 .dashboard{
     justify-content: center;
     align-items: center;
-    width: 1410px;
-    height: 780px;
-    margin-left: 5.5%;
-    margin-top: 2%;
+    padding-top: 15px;
 }
 
 .dashboard > *{
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
 }
 
 .containerDashboard{
@@ -48,4 +41,17 @@
 .menuCrm{
     display: flex;;
     justify-content: flex-end;
+    padding: 20px;
+}
+
+.navLat{
+    background-color: #7896EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.haveNiceDay{
+    width: 470px;
 }
