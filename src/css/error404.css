@@ -1,27 +1,39 @@
 .container404{
-  max-width: 1500px;
-  min-width: 600px
-}
-
-.logoError{
+  width: 1915px;
+  min-width: 50px;
+  height: 920px;
+  display:flex;
+  align-items: center;
   justify-content: center;
 }
 
 .container404 > * {
   text-align: center;
 }
-  
-.error404{
-  max-width: 98vh;
+
+.logoError{
+  width: 25vh;
+  margin:15px;
+  position: absolute;
+  left: 5vh; top: 2vh;
+
 }
-  
+
+
+.containerError{
+  display:block;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 1000px;
+}
+
 #btnHome{
-  display: inline-block;
+  display: block;
   position: relative;
-        left: -5vh;
-        top: -150px;
-  max-width: 55vh;
-  min-width: 25vh;
+        left: 20vw;
+        top: -10vh;
+  width: 200px;
   background:#838BC5;
   border: 1px solid white;
   border-radius: 40px;

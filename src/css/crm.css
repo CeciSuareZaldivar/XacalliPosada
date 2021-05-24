@@ -1,57 +1,35 @@
+.mainContent{
+    background-color: #C4C7FF;
+    position: relative;
+    top: 10vh; left: 3.5vw;
+    width: 90vw;
+    height: 82vh;
+    margin-right: 5px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent > * {
+    align-items: center;
+    justify-content: center;
+}
+
 .containerCrm{
-    display: flex;
+    width: 87vw;
+    height: 78vh;
+    margin: 20px;
 }
 
-.containerLeft{
-    background-color: #6e8ad6;
-    display:block;
-    justify-content: center;
-    align-items: center;
-}
-
-.containerRight{
-    background-color: #EDEDED;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-}
-
-
-.dashboard{
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-}
-
-.dashboard > *{
-    justify-content: center;
-    align-items: center;
-}
-
-.containerDashboard{
-    display:flex;
+.gridCrm > *{
+    margin-top: 20px;
 }
 
 .tittleDasboard{
     text-align: center;
-    font-weight: bold;
-    font-size: 25px;
 }
 
-.menuCrm{
-    display: flex;;
-    justify-content: flex-end;
-    padding: 20px;
-}
-
-.navLat{
-    background-color: #7896EA;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.haveNiceDay{
-    width: 470px;
+.containerTable{
+    width: 87vw;
+    height: 63vh;
 }

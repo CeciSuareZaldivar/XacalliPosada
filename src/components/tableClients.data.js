@@ -1,103 +1,107 @@
+import Checkbox from '@material-ui/core/Checkbox';
+
 export const cols = [
-  {title: 'No.'},
-  {title: 'Id Cliente'},
-  {title: 'Nombre'},
-  {title: 'Teléfono'},
-  {title: 'E-mail'},
-  {title: 'Nacionalidad'},
-  {title: 'Facebook'}
+  {id: 'checkboxClient', title: <Checkbox/>, minWidth: 10},
+  {id: 'idNumberClient', title: 'No.', minWidth: 15},
+  {id: 'idClient', title: 'ID Cliente', minWidth: 10},
+  {id: 'nameClient', title: 'Nombre', minWidth: 150},
+  {id: 'phoneClient', title: 'Teléfono', minWidth: 150},
+  {id: 'emailClient', title: 'E-mail', minWidth: 150},
+  {id: 'nationalityClient', title: 'Nacionalidad', minWidth: 15},
+  {id: 'facebookClient', title: 'Facebook', minWidth: 15},
+  {id: 'idIcons'},
 ]
 
 
 export const rows = [
   {
-    id: 1,
+    idNumberClient: 1,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 2,
+    idNumberClient: 2,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 3,
+    idNumberClient: 3,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 4,
+    idNumberClient: 4,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 5,
+    idNumberClient: 5,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 6,
+    idNumberClient: 6,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 7,
+    idNumberClient: 7,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 8,
+    idNumberClient: 8,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 9,
+    idNumberClient: 9,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   },
   {
-    id: 10,
+    idNumberClient: 10,
     idClient: "c01",
-    name: "Geroniomo Uc",
-    phone: "55 8367 0580",
-    email: "hola@gmail.com",
-    nacionality: "Mexico",
-    facebook: "Gero Uc"
+    nameCliente: "Geroniomo Uc",
+    phoneClient: "55 8367 0580",
+    emailClient: "holamundo@gmail.com",
+    nationalityClient: "Mexico",
+    facebookClient: "Gero Uc"
   }
 ]

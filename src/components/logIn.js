@@ -35,7 +35,7 @@ function LogIn() {
         alert("El Usuario " + '"'+username + '"' + " o la Contraseña son invalidos");
 
     }else{
-      history.push('/Crm')
+      history.push('/Home')
     }
   }
 

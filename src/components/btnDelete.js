@@ -5,14 +5,11 @@ import '../css/groupIconsView.css';
 import icDelete from '../img/iconDelete.svg';
 
 
-
 function ButtonDelete() {
   return (
-    <div className="containerBtnDelete">
         <button id="btnDelete">
           <img src={icDelete} className="iconDelete"/>
         </button>
-    </div>
   );
 }
 

@@ -13,12 +13,14 @@ import { NavLink } from 'react-router-dom';
 function error404() {
   return (
     <div className="container404">
-        <LogoXacalliPosada/>
+        <div className="logoError">
+          <LogoXacalliPosada/>
+        </div>
         <div className="containerError">
-          <img src={error} className="error404"/>
-          <NavLink id="btnHome" to='/crm'>
-            <img src={home} className="btnHome"/>
-          </NavLink>
+          <img src={error}/>
+            <NavLink id="btnHome" to='/home'>
+              <img src={home} className="btnHome"/>
+            </NavLink>
         </div>
     </div>
   );

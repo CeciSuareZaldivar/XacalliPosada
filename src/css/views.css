@@ -1,0 +1,86 @@
+.containerViews{
+    display:flex;
+}
+
+/* View Welcome*/
+.motivationalPhraset{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* View Users*/
+.breadCrumb{
+    background-color: #6C8DFA;
+    position: relative;
+    top: 10vh; left: 3.5vw;
+    width: 90vw;
+    padding: 15px;
+    margin: 15px;
+}
+
+.breadCrumb > *{
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+/* View Records*/
+.containerMenuRecords{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerMenuRecords > *{
+    align-items: center;
+    justify-content: center;
+}
+
+.menuRecords > *{
+    padding: 25px;
+}
+
+
+.rooms, .services{
+    display:flex;
+}
+
+.roomsLeft{
+    background-color: #8D89C0;
+    width: 250px;
+}
+
+.roomsRight{
+    background-color: #706DB0;
+}
+
+.iconRooms{
+    width: 150px;
+    min-width: 50px;
+}
+
+.iconService{
+    width: 160px;
+    min-width: 50px;
+}
+
+
+.servicesLeft{
+    display:flex;
+    background-color: #5CC1E7;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.servicesRight{
+    background-color: #34B0E0;
+}
+
+.roomsLeft , .servicesLeft > *{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #EAEAEA;
+}

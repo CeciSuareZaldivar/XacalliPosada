@@ -1,0 +1,11 @@
+.txtDrawerList{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 8px;
+    color: white;
+}
+
+.iconDrawerList{
+    margin-left: 5px;
+}

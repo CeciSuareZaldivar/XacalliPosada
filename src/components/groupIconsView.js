@@ -1,18 +1,28 @@
 import React from 'react';
 // Import CSS
 import '../css/groupIconsView.css';
-// Import img
-import icPencil from '../img/iconPencil.svg';
+// Import Material UI
+import IconButton from '@material-ui/core/IconButton';
+// Import components
+import ButtonEdit from './btnEdit';
+import ButtonDelete from './btnDelete';
+import ButtonView from './btnView';
 
 
-function ButtonEdit() {
+function GroupIcons() {
   return (
-    <div className="containerBtnEdit">
-        <button id="btnPencil">
-          <img src={icPencil} className="iconPencil"/>
-        </button>
+    <div className="containerGroupIcons">
+        <IconButton className="iconButton">
+          <ButtonView/>
+        </IconButton>
+        <IconButton className="iconButton">
+          <ButtonEdit/>
+        </IconButton>
+        <IconButton className="iconButton">
+          <ButtonDelete/>
+        </IconButton>
     </div>
   );
 }
 
-export default ButtonEdit;
+export default GroupIcons;

@@ -1,49 +1,49 @@
 import React from 'react';
 // Import CSS
 import '../css/crm.css';
-// Import components
-import NavLateral from './navLateral';
-import NavHeader from './navHeader';
-
-import { Container, Col, Row } from 'react-bootstrap';
+// Import Material UI
+  // Grid
+import Grid from '@material-ui/core/Grid';
+  // Typography
+import Typography from '@material-ui/core/Typography';
+// Impport Components
+  // Button
+import ButtonMenuCrm from './button';
 
 
 
 class AppCrm extends React.Component {
 
-  render (){
-    return(
-      <div className="containerCrm">
-        <Container>
-          <Row>
-            <Col>
-            <div className="containerLeft">
-              <div className="containerNavHea">
-                <NavHeader className="navHeader"/>
-              </div>
-              <NavLateral className="navLat"/>
-            </div>
+  render(){
 
-            </Col>
-            <Col>
-              <div className="containerRight">
-                <div className="dashboard">
-                  <div className="tittleDasboard">
-                    <p>{this.props.titulo}</p> 
-                  </div>
-                  <div class="menuCrm">
-                  </div>
-                  <div className="containerDashboard">
-                    {this.props.children} 
-                  </div>
-                </div>
+    return (
+              
+      <main className="mainContent">
+        <Grid container spacing={3}>
+                
+          <div className="containerCrm">
+            <Grid className="gridCrm" item xs={12} sm={12} md={12} lg={12} xl={12}>
+              
+              <div className="tittleDasboard">
+                <Typography variant="h4">{this.props.titulo}</Typography> 
               </div>
-            </Col>
-          </Row>
-        </Container>
-    </div>
+      
+              <div class="menuCrm">
+                <ButtonMenuCrm tittle="Añadir"/>
+              </div>
+      
+              <div className="containerTable">
+                {this.props.children}
+              </div>
+      
+            </Grid>
+          </div>
+        </Grid>
+      </main>
+       
     )
   }
 }
+      
 
 export default AppCrm;

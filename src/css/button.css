@@ -1,0 +1,16 @@
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btnMenuCrm{
+    display: flex;
+    background-color: #7292e7;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border:0;
+    border-radius: 8px;
+    width: 70px;
+    height: 35px;
+}

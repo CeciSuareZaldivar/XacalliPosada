@@ -83,9 +83,15 @@ Depués de tener una breve entrevista con el dueño del hotel obtuvimos la sigui
         * Wifi.
     * ***Con costo adicional***:
         * Asador $200 con duración de 4 hrs.
-        * Fogata  $400 con duración de 2 hrs.
+        * Fogata  $400 con duración de 4 hrs.
         * Hiking  $100 (por persona) con duración de 2 hrs.
         * Masaje  $600 (por persona) con duración de 55 min.
+        * Desayuno Americano $150 incluye:
+            * Jugo de temporada
+            * Fruta
+            * Café
+            * Huevos al gusto
+            
 * Todos los servicios, excluyendo el *Wifi*, se deben notificar con anticipación para verificar disponibilidad.
 
 ## 👷 Empleados
