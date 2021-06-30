@@ -13,9 +13,8 @@ import { makeStyles} from '@material-ui/core/styles';
 // Import components
 import Drawer from './drawer';
 import Crm from './crm';
-import TemplateTable from './templateTable'
-// Import Data Table
-import { cols, rows } from './tableSuppliers.data';
+import TemplateEditLeads from './templateEditLeads'
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-function ViewSuppliers() {
+function ViewTest() {
     const classes = useStyles();
     return (
         <div  className={classes.containerViews}> 
@@ -42,11 +41,11 @@ function ViewSuppliers() {
                             Inicio
                         </Link>
                         <Typography color="inherit">
-                            Proveedores
+                            Test
                         </Typography>
                     </Breadcrumbs>
-                    <Crm titulo="Proveedores">
-                        <TemplateTable className="table" cols={cols} rows={rows} editRoute="/crm/prospects/edit"></TemplateTable>
+                    <Crm titulo="Usuarios">
+                      <TemplateEditLeads/>
                     </Crm>
                 </Grid>
             </Grid>
@@ -54,4 +53,4 @@ function ViewSuppliers() {
     )
 }
 
-export default ViewSuppliers
+export default ViewTest

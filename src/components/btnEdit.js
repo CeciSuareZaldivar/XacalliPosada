@@ -8,7 +8,7 @@ import icPencil from '../img/iconPencil.svg';
 function ButtonEdit() {
   return (
         <button id="btnEdit">
-          <img src={icPencil} className="iconPencil"/>
+          <img src={icPencil} className="iconPencil" alt="button_edit"/>
         </button>
   );
 }

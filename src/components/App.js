@@ -1,6 +1,6 @@
 import React from 'react';
 // Import CSS
-import '../css/App.css';
+import '../css/app.css';
 // Import components
   // Import pages
 import Error404 from './error404';
@@ -16,6 +16,7 @@ import viewMarketing from './viewMarketing';
 import viewRecords from './viewRecords';
 import viewRecordsRooms from './viewRecordsRooms';
 import viewRecordsServices from './viewRecordsServices';
+import viewTest from './viewTest';
 
 import PropTypes from 'prop-types';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
@@ -30,14 +31,15 @@ function App(Props) {
           <Route path="/login" component={Login}/>
           <Route exact path="/home" component={viewWelcome}/>
           <Route exact path="/home/leads" component={viewLeads}/>
-          <Route path="/home/reservations" component={viewReservations}/>
-          <Route path="/home/clients" component={viewClients}/>
-          <Route path="/home/users" component={viewUsers}/>
-          <Route path="/home/suppliers" component={viewSuppliers}/>
-          <Route path="/home/marketing" component={viewMarketing}/>
-          <Route path="/home/records" component={viewRecords}/>
-          <Route path="/home/records/rooms" component={viewRecordsRooms}/>
-          <Route path="/home/records/services" component={viewRecordsServices}/>
+          <Route exact path="/home/reservations" component={viewReservations}/>
+          <Route exact path="/home/clients" component={viewClients}/>
+          <Route exact path="/home/users" component={viewUsers}/>
+          <Route exact path="/home/suppliers" component={viewSuppliers}/>
+          <Route exact path="/home/marketing" component={viewMarketing}/>
+          <Route exact path="/home/records" component={viewRecords}/>
+          <Route exact path="/home/records/rooms" component={viewRecordsRooms}/>
+          <Route exact path="/home/records/services" component={viewRecordsServices}/>
+          <Route exact path="/test" component={viewTest}/>
           <Route component={Error404}/>
         </Switch>
       </BrowserRouter>

@@ -22,7 +22,7 @@ import IconService from './iconService';
 const useStyles = makeStyles((theme) => ({
     containerViews: {
     [theme.breakpoints.up('md', 'lg', 'xl')]: {
-      display: 'flex',
+      display: 'block',
     },
     [theme.breakpoints.down('xs', 'sm')]: {
       display: 'block',

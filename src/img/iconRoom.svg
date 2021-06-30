@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-5 184.8 433 465" style="enable-background:new -5 184.8 433 465;" xml:space="preserve">
+	 viewBox="-81 188.9 433 465" style="enable-background:new -81 188.9 433 465;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#F4F4F4;}
+	.st0{fill:#8686C4;stroke:#161616;stroke-width:12;stroke-miterlimit:10;}
+	.st1{fill:#C3C3DD;stroke:#161616;stroke-width:12;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
-		<path class="st0" d="M201.5,202.3h36.3v89.9h-36.3V202.3z"/>
+		<path class="st0" d="M127.5,202.8h36.3v89.9h-36.3V202.8z"/>
 	</g>
 	<g>
-		<path class="st0" d="M260,212.7l29.1,21.6l-53.6,72.2l-29.1-21.6L260,212.7z"/>
+		<path class="st0" d="M186,213.2l29.1,21.6L161.5,307l-29.1-21.6L186,213.2z"/>
 	</g>
 	<g>
-		<path class="st0" d="M232.6,284.9l-29.1,21.6L150,234.3l29.1-21.6L232.6,284.9z"/>
+		<path class="st0" d="M158.6,285.4L129.5,307L76,234.8l29.1-21.6L158.6,285.4z"/>
 	</g>
 	<g>
-		<path class="st0" d="M377.5,639.5h-113l-44.8-14.2l-45.2,14.2H61.7v-255h315.8V639.5z"/>
+		<path class="st0" d="M303.5,640h-113l-44.8-14.2L100.5,640H-12.3V385h315.8V640z"/>
 	</g>
 	<g>
-		<path class="st1" d="M264.6,639.5h-90.1v-88.3c0-24.9,20.2-45,45-45s45,20.2,45,45V639.5z"/>
+		<path class="st1" d="M190.6,640h-90.1v-88.3c0-24.9,20.2-45,45-45s45,20.2,45,45V640H190.6z"/>
 	</g>
 	<g>
-		<path class="st1" d="M22.8,443.3C-5.4,411.2,154,278.6,219.6,246.5c65.6,32.1,225,164.7,196.8,196.8
-			C285.2,443.3,154,443.3,22.8,443.3L22.8,443.3z"/>
+		<path class="st1" d="M-51.2,443.8C-79.4,411.7,80,279.1,145.6,247c65.6,32.1,225,164.7,196.8,196.8
+			C211.2,443.8,80,443.8-51.2,443.8L-51.2,443.8z"/>
 	</g>
 </g>
 </svg>

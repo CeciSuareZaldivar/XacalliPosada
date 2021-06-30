@@ -1,7 +1,7 @@
 .mainContent{
     background-color: #C4C7FF;
     position: relative;
-    top: 10vh; left: 3.5vw;
+    top: 10vh; left: 7vw;
     width: 90vw;
     height: 82vh;
     margin-right: 5px;
@@ -17,19 +17,15 @@
 
 .containerCrm{
     width: 87vw;
-    height: 78vh;
-    margin: 20px;
+    height: 80vh;
+    margin: 10px;
 }
 
 .gridCrm > *{
-    margin-top: 20px;
-}
-
-.tittleDasboard{
-    text-align: center;
+    margin-top: 15px;
 }
 
 .containerTable{
     width: 87vw;
-    height: 63vh;
+    height: 77vh;
 }

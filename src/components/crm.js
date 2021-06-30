@@ -23,14 +23,7 @@ class AppCrm extends React.Component {
                 
           <div className="containerCrm">
             <Grid className="gridCrm" item xs={12} sm={12} md={12} lg={12} xl={12}>
-              
-              <div className="tittleDasboard">
-                <Typography variant="h4">{this.props.titulo}</Typography> 
-              </div>
       
-              <div class="menuCrm">
-                <ButtonMenuCrm tittle="Añadir"/>
-              </div>
       
               <div className="containerTable">
                 {this.props.children}

@@ -15,13 +15,13 @@ import Drawer from './drawer';
 import Crm from './crm';
 import TemplateTable from './templateTable'
 // Import Data Table
-import { cols, rows } from './tableLeads.data';
+import {cols, rows } from './tableLeads.data';
 
 
 const useStyles = makeStyles((theme) => ({
     containerViews: {
     [theme.breakpoints.up('md', 'lg', 'xl')]: {
-      display: 'flex',
+      display: 'block',
     },
     [theme.breakpoints.down('xs', 'sm')]: {
       display: 'block',
@@ -45,7 +45,7 @@ function ViewLeads() {
                         Leads
                       </Typography>
                   </Breadcrumbs>
-                  <Crm titulo="Leads">
+                  <Crm>
                     <TemplateTable cols={cols} rows={rows} editRoute="/crm/leads/"></TemplateTable>
                   </Crm>
               </Grid>

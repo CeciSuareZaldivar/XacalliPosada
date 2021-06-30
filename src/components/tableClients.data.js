@@ -1,14 +1,11 @@
-import Checkbox from '@material-ui/core/Checkbox';
-
 export const cols = [
-  {id: 'checkboxClient', title: <Checkbox/>, minWidth: 10},
-  {id: 'idNumberClient', title: 'No.', minWidth: 15},
-  {id: 'idClient', title: 'ID Cliente', minWidth: 10},
-  {id: 'nameClient', title: 'Nombre', minWidth: 150},
-  {id: 'phoneClient', title: 'Teléfono', minWidth: 150},
-  {id: 'emailClient', title: 'E-mail', minWidth: 150},
-  {id: 'nationalityClient', title: 'Nacionalidad', minWidth: 15},
-  {id: 'facebookClient', title: 'Facebook', minWidth: 15},
+  {id: 'idNumberClient', label: 'No.', width: 15},
+  {id: 'idClient', label: 'ID Cliente', width: 10},
+  {id: 'nameClient', label: 'Nombre', width: 150},
+  {id: 'phoneClient', label: 'Teléfono', width: 150},
+  {id: 'emailClient', label: 'E-mail', width: 150},
+  {id: 'nationalityClient', label: 'Nacionalidad', width: 15},
+  {id: 'facebookClient', label: 'Facebook', width: 15},
   {id: 'idIcons'},
 ]
 

@@ -17,9 +17,9 @@ function error404() {
           <LogoXacalliPosada/>
         </div>
         <div className="containerError">
-          <img src={error}/>
+          <img src={error} alt="page_not_found"/>
             <NavLink id="btnHome" to='/home'>
-              <img src={home} className="btnHome"/>
+              <img src={home} className="btnHome" alt="button_home"/>
             </NavLink>
         </div>
     </div>

@@ -1,19 +1,18 @@
 import Checkbox from '@material-ui/core/Checkbox';
 
 export const cols = [
-    {id: 'checkboxClient', title: <Checkbox/>, minWidth: 10},
-    {id: 'idNumberReservation', title: 'No.', minWidth: 15},
-    {id: 'idClient', title: 'ID Cliente', minWidth: 10},
-    {id: 'name', title: 'Nombre', minWidth: 150},
-    {id: 'phone', title: 'Teléfono', minWidth: 150},
-    {id: 'numberPerson', title: 'No. Personas', minWidth: 5},
-    {id: 'numberPets', title: 'No. Mascotas', minWidth: 5},
-    {id: 'dateRegistration', title: 'Fecha Reservación', minWidth: 25},
-    {id: 'dateStart', title: 'Fecha Inicio', minWidth: 25},
-    {id: 'dateEnd', title: 'Fecha Fin', minWidth: 25},
-    {id: 'datePayAdvance', title: 'Fecha Pago Anticipo', minWidth: 25},
-    {id: 'payAdvance', title: 'Pago Anticipo', minWidth: 15},
-    {id: 'idEmployee', title: 'ID Vendedor', minWidth: 10},
+    {id: 'idNumberReservation', label: 'No.'},
+    {id: 'idClient', label: 'ID Cliente'},
+    {id: 'name', label: 'Nombre'},
+    {id: 'phone', label: 'Teléfono'},
+    {id: 'numberPerson', label: 'No. Personas'},
+    {id: 'numberPets', label: 'No. Mascotas'},
+    {id: 'dateRegistration', label: 'Fecha Reservación'},
+    {id: 'dateStart', label: 'Fecha Inicio'},
+    {id: 'dateEnd', label: 'Fecha Fin'},
+    {id: 'datePayAdvance', label: 'Fecha Pago Anticipo'},
+    {id: 'payAdvance', label: 'Pago Anticipo'},
+    {id: 'idEmployee', label: 'ID Vendedor'},
     {id: 'idIcons'},
 ]
 

@@ -40,7 +40,7 @@ function LogIn() {
   }
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit} className="container">
       <div className="LogInApp">
         <div className="containerLogoLogIn">
           <LogoXacalliPosada className="logoLogIn"/>

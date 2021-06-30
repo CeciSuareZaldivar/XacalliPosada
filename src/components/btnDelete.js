@@ -8,7 +8,7 @@ import icDelete from '../img/iconDelete.svg';
 function ButtonDelete() {
   return (
         <button id="btnDelete">
-          <img src={icDelete} className="iconDelete"/>
+          <img src={icDelete} className="iconDelete" alt="button_delete"/>
         </button>
   );
 }

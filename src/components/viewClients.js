@@ -21,7 +21,7 @@ import { cols, rows } from './tableClients.data';
 const useStyles = makeStyles((theme) => ({
     containerViews: {
     [theme.breakpoints.up('md', 'lg', 'xl')]: {
-      display: 'flex',
+      display: 'block',
     },
     [theme.breakpoints.down('xs', 'sm')]: {
       display: 'block',
@@ -45,7 +45,7 @@ function ViewClients() {
                             Clientes
                         </Typography>
                     </Breadcrumbs>
-                    <Crm titulo="Clientes">
+                    <Crm>
                         <TemplateTable cols={cols} rows={rows} editRoute="/crm/prospects/edit"></TemplateTable>
                     </Crm>
                 </Grid>

@@ -19,7 +19,7 @@ import Crm from './crm';
 const useStyles = makeStyles((theme) => ({
     containerViews: {
     [theme.breakpoints.up('md', 'lg', 'xl')]: {
-      display: 'flex',
+      display: 'block',
     },
     [theme.breakpoints.down('xs', 'sm')]: {
       display: 'block',
@@ -28,24 +28,25 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-
-function ViewWelcome() {
-    const classes = useStyles();
-    return (
-        <div  className={classes.containerViews}> 
-            <Drawer/>
-            <Grid container>
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                    <Breadcrumbs className="breadCrumb">
+function ViewLeads() {
+  const classes = useStyles();
+  return (
+      <div  className={classes.containerViews}> 
+          <Drawer/>
+          <Grid container>
+              <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+              <Breadcrumbs className="breadCrumb">
                         <Typography color="inherit">Inicio</Typography>
                     </Breadcrumbs>
-                    <Crm titulo="You Can Do It :)">
-                        <img src={MotivationalPhraset} className="motivationalPhraset" alt="motivational_phraset" editRoute="/home/"/>
+                    <Crm titulo="You Can Do It :)" className="containerCrm">
+                        <div className="containerImg">
+                            <img src={MotivationalPhraset} className="motivationalPhraset" alt="motivational_phraset" editRoute="/home/"/>
+                        </div>
                     </Crm>
-                </Grid>
-            </Grid>
-        </div>
-    )
+              </Grid>
+          </Grid>
+      </div>
+  )
 }
 
-export default ViewWelcome
+export default ViewLeads

@@ -1,17 +1,16 @@
 import Checkbox from '@material-ui/core/Checkbox';
 
 export const cols = [
-  {id: 'checkboxSupplier', title: <Checkbox/>, minWidth: 10},
-  {id: 'idNumberSupplier', title: 'No.', minWidth: 15},
-  {id: 'idSupplier', title: 'ID Proveedor', minWidth: 10},
-  {id: 'nameSupplier', title: 'Nombre', minWidth: 150},
-  {id: 'celPhoneSupplier', title: 'Celular', minWidth: 200},
-  {id: 'phoneSupplier', title: 'Teléfono', minWidth: 200},
-  {id: 'emailSupplier', title: 'E-mail', minWidth: 150},
-  {id: 'serviceSupplier', title: 'Servicios / Productos', minWidth: 15},
-  {id: 'descriptionServiceSupplier', title: 'Descripción', minWidth: 15},
-  {id: 'pagWebSupplier', title: 'Pág. Web', minWidth: 15},
-  {id: 'facebookSupplier', title: 'Facebook', minWidth: 25},
+  {id: 'idNumberSupplier', label: 'No.', minWidth: 15},
+  {id: 'idSupplier', label: 'ID Proveedor', minWidth: 10},
+  {id: 'nameSupplier', label: 'Nombre', minWidth: 150},
+  {id: 'celPhoneSupplier', label: 'Celular', minWidth: 200},
+  {id: 'phoneSupplier', label: 'Teléfono', minWidth: 200},
+  {id: 'emailSupplier', label: 'E-mail', minWidth: 150},
+  {id: 'serviceSupplier', label: 'Servicios / Productos', minWidth: 15},
+  {id: 'descriptionServiceSupplier', label: 'Descripción', minWidth: 15},
+  {id: 'pagWebSupplier', label: 'Pág. Web', minWidth: 15},
+  {id: 'facebookSupplier', label: 'Facebook', minWidth: 25},
   {id: 'idIcons'},
 ]
 

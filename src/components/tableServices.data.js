@@ -1,13 +1,12 @@
 import Checkbox from '@material-ui/core/Checkbox';
 
 export const cols = [
-  {id: 'checkboxServices', title: <Checkbox/>, minWidth: 10},
-  {id: 'idNumberServices', title: 'No.', minWidth: 15},
-  {id: 'idServices', title: 'ID Servicio', minWidth: 15},
-  {id: 'nameServices', title: 'Nombre', minWidth: 15},
-  {id: 'durationServices', title: 'Duración', minWidth: 10},
-  {id: 'priceServices', title: 'Precio', minWidth: 15},
-  {id: 'descriptionServices', title: 'Descripción', minWidth: 200},
+  {id: 'idNumberServices', label: 'No.'},
+  {id: 'idServices', label: 'ID Servicio'},
+  {id: 'nameServices', label: 'Nombre'},
+  {id: 'durationServices', label: 'Duración'},
+  {id: 'priceServices', label: 'Precio'},
+  {id: 'descriptionServices', label: 'Descripción'},
   {id: 'idIcons'},
 ]
 

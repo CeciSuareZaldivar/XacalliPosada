@@ -1,5 +1,17 @@
-.logoLogIn{
-  height: 25vmin;
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 25px;
+  height: 750px;
+}
+
+.containerLogoLogIn{
+  width: 220px;
+  margin:15px;
+  position: absolute;
+  left: 5vh; top: 2vh;
 }
 
 .cardLogIn{
@@ -9,11 +21,14 @@
   height: 480px;
   text-align: center;
   margin: 15px;
+  margin-top: 250px;
 }
 
 .containerLogIn{
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 15px;
 }
 
 .iconPhoto{
@@ -26,11 +41,10 @@
 }
 
 .iconUser,.iconPass{
-  max-height: 4vmin;
+  min-height: 4vmin;
   border: 1px solid  #e9eee9;
   width: 40px;
 }
-
 
 .inputLogIn{
   border-radius: 3px;
