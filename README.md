@@ -138,9 +138,9 @@ La estructura del proyecto consta de las siguientes partes:
 
 | No | Nombre | Descripción | Link | Código QR |
 | ---------- | ---------- | ---------- | ---------- | ---------- |
-| 1 | Api | Interfaz de la aplicación web del Hotel. Base de datos. | [Api Xacalli Posada](https://bit.ly/RepoApiXacalliPosada) | ![Api Xacalli](./img/api_xacalli_posada.png)|
-| 2 | Aplicación Web | Encargada de agilizar el funnel de ventas del hotel. Mejorar la gestión de las reservaciones y facilitar el acceso a información específica cómo proveedores y el ROI de las campañas publicitarias. | [Crm Xacalli Posada](https://bit.ly/CrmXacalliPosada) | ![App Web Xacalli](./img/app_web_xacalli_posada.png) |
-| 3 | Landing | Página de aterrizaje para aumentar el posicionamiento digital del hotel y facilitar la conversión de leads. | [Landing Xacalli Posada](https://bit.ly/RepoLandingXacalliPosada) | ![Landing Xacalli](./img/landing_xacalli_posada.png) |
+| 1 | Api | Interfaz de la aplicación web del Hotel. Base de datos. | [Api Xacalli Posada](https://bit.ly/RepoApiXacalliPosada) | ![Api Xacalli](./src/img/api_xacalli_posada.png)|
+| 2 | Aplicación Web | Encargada de agilizar el funnel de ventas del hotel. Mejorar la gestión de las reservaciones y facilitar el acceso a información específica cómo proveedores y el ROI de las campañas publicitarias. | [Crm Xacalli Posada](https://bit.ly/CrmXacalliPosada) | ![App Web Xacalli](./src/img/app_web_xacalli_posada.png) |
+| 3 | Landing | Página de aterrizaje para aumentar el posicionamiento digital del hotel y facilitar la conversión de leads. | [Landing Xacalli Posada](https://bit.ly/RepoLandingXacalliPosada) | ![Landing Xacalli](./src/img/landing_xacalli_posada.png) |
 
 
 <a name="aplicacion"></a>
@@ -153,7 +153,7 @@ Al dar clic ["aquí”](https://landing-xacalli-posada.vercel.app/) pueden ver l
 <a name="autora"></a>
 # ✒️ Autora 
 
-[![Ceci Suarez](./img/ceci_suarez.jpg)](https://github.com/CeciSuareZaldivar)
+[![Ceci Suarez](./src/img/ceci_suarez.jpg)](https://github.com/CeciSuareZaldivar)
 
 
 # 🎁  Agradecimiento Especial
